@@ -18,7 +18,7 @@ Configuration example
 ```
 from flask import Flask
 from flask.ext.imagine import Imagine
-from flask.ext.flask_imagine_google_adapter import FlaskImagineGoogleAdapter
+from flask.ext.imagine_google_adapter import FlaskImagineGoogleAdapter
 
 app = Flask(__name__)
 
